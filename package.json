@@ -1,0 +1,34 @@
+{
+  "author": "Hugo Antunes, Carlos Lopes",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "async": "^2.6.0",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "express": "^4.16.3",
+    "express-form-data": "^2.0.8",
+    "express-validator": "^5.0.2",
+    "extract-zip": "^1.6.7",
+    "morgan": "~1.9.0",
+    "node-stream-zip": "^1.8.0",
+    "path": "0.12.7",
+    "recursive-readdir-sync": "^1.0.6",
+    "request": "^2.83.0",
+    "string-contains": "^0.1.0",
+    "unzipper": "^0.9.15",
+    "yeoman-gen-run": "^1.2.3"
+  },
+  "description": "An app prototype for checking defects on stone slabs.",
+  "devDependencies": {},
+  "license": "MIT",
+  "main": "bin/be/app.js",
+  "name": "stone-check",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmscrl/stone-check.git"
+  },
+  "scripts": {
+    "start": "node src/bin/be/app.js"
+  },
+  "version": "0.1.0"
+}
